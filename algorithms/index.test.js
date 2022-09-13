@@ -41,27 +41,27 @@ const filterList = require('./challenge-5')
 //   })
 // })
 
-describe('Challenge 4 Tests', () => {
-  test('basic tests', () => {
-    expect(calculateGrade([19, 5, 42, 2, 77])).toBe('F')
-    expect(calculateGrade([59, 80, 40, 2, 77])).toBe('E')
-    expect(calculateGrade([89, 50, 40, 90, 77])).toBe('D')
-    expect(calculateGrade([59, 75, 82, 77])).toBe('C')
-    expect(calculateGrade([80, 80, 80])).toBe('B')
-    expect(calculateGrade([90, 90, 97])).toBe('A')
+// describe('Challenge 4 Tests', () => {
+//   test('basic tests', () => {
+//     expect(calculateGrade([19, 5, 42, 2, 77])).toBe('F')
+//     expect(calculateGrade([59, 80, 40, 2, 77])).toBe('E')
+//     expect(calculateGrade([89, 50, 40, 90, 77])).toBe('D')
+//     expect(calculateGrade([59, 75, 82, 77])).toBe('C')
+//     expect(calculateGrade([80, 80, 80])).toBe('B')
+//     expect(calculateGrade([90, 90, 97])).toBe('A')
   
-  })
-})
-
-
-// describe('Challenge 5 Tests', () => {
-//     test('basic tests', () => {
-//         expect(filterList([1,2,'a','b'])).toEqual([1,2])
-//         expect(filterList([1,'a','b',0,15])).toEqual([1,0,15])
-//         expect(filterList([1,2,'aasf','1','123',123])).toEqual([1,2,123])
-//         expect(filterList(['wk', 4, 5, 6, 'yl', 'to' ])).toEqual([4,5,6])
-//         expect(filterList([3, "Pop", 8, 9, 7,"learn" ])).toEqual([3, 8, 9,7])
-//         expect(filterList(["t", 9]) ).toEqual([9])
-
-//       })
+//   })
 // })
+
+
+describe('Challenge 5 Tests', () => {
+    test('basic tests', () => {
+        expect(filterList([1,2,'a','b'])).toEqual([1,2])
+        expect(filterList([1,'a','b',0,15])).toEqual([1,0,15])
+        expect(filterList([1,2,'aasf','1','123',123])).toEqual([1,2,123])
+        expect(filterList(['wk', 4, 5, 6, 'yl', 'to' ])).toEqual([4,5,6])
+        expect(filterList([3, "Pop", 8, 9, 7,"learn" ])).toEqual([3, 8, 9,7])
+        expect(filterList(["t", 9]) ).toEqual([9])
+
+      })
+})
